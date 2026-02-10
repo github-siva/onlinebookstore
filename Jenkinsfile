@@ -7,13 +7,26 @@ pipeline {
               	    echo "repo cloned successfully"  
               	    }  
          	    } 
-                    stages {  
-       	    stage("state 3") {  
+  stage("dev 3") {  
            	    steps {  
               	    echo "cloning repository" 
               	    echo "repo cloned successfully"  
               	    }  
          	    } 
+             stage("dev 3") {  
+           	    steps {  
+              	    echo "cloning repository" 
+              	    echo "repo cloned successfully"  
+              	    }  
+         	    } 
+             stage("dev 3") {  
+           	    steps {  
+              	    echo "cloning repository" 
+              	    echo "repo cloned successfully"  
+              	    }  
+         	    } 
+           
+           
 stage("dev 3") {  
            	    steps {  
               	    echo "cloning repository" 
